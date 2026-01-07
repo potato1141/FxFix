@@ -7873,9 +7873,6 @@ function aO7(data) {
 	}, aOU = new vB(data.username, [new w("⬅️ " + L(37), function() {
 		bI.clear(), t.a1z()
 	}), new w(data.aOW ? "🔄 " + L(155) : L(156), function() {
-		console.log("Creating player data for " + data.t2), bI.aPN(data.t2, function(aP1) {
-			aP1 ? (data.aP4 = aP1.aP4, data.aP5 = aP1.aP5, data.username = aP1.username, data.aP6 = aP1.aP6, data.aOW = aP1.aOW, aOU.s4(), aOV.s4()) : bA.qn.a46(null), bA.qn.v3(null)
-		}),
 		t.u(8, data.aOW ? t.a5q().aO0 : void 0, new t5(25, {
 			t6: 0,
 			t2: data.t2,
