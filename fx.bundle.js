@@ -1,33 +1,33 @@
-const buildTimestamp = "1767123808200";
+const buildTimestamp = "1769374362481";
 const dictionary = {
     "game": "aD",
-    "gIsReplay": "h9",
+    "gIsReplay": "hA",
     "playerData": "ag",
-    "rawPlayerNames": "a1T",
-    "playerBalances": "h2",
-    "playerTerritories": "go",
+    "rawPlayerNames": "a1X",
+    "playerBalances": "h3",
+    "playerTerritories": "gp",
     "uiSizes": "bc",
     "gap": "gap",
     "MenuManager": "aa",
-    "getState": "a20",
-    "gIsTeamGame": "hu",
-    "playerId": "el",
-    "playerNames": "a1O",
-    "gameState": "a0m",
+    "getState": "a24",
+    "gIsTeamGame": "hv",
+    "playerId": "em",
+    "playerNames": "a1S",
+    "gameState": "a0p",
     "fontSize": "fontSize",
-    "x": "f8",
-    "y": "fA",
-    "canvas": "i2",
-    "gHumans": "kL",
-    "playerStates": "a49",
-    "fontGeneratorFunction": "bA.qn.se",
-    "gLobbyMaxJoin": "xv",
+    "x": "f9",
+    "y": "fB",
+    "canvas": "i3",
+    "gHumans": "kM",
+    "playerStates": "a4D",
+    "fontGeneratorFunction": "bA.qo.sf",
+    "gLobbyMaxJoin": "xy",
     "data": "data",
     "playerCount": "playerCount",
-    "gBots": "kh",
-    "strs": "aBi",
-    "gIsSingleplayer": "kf",
-    "gMaxPlayers": "ey",
+    "gBots": "ki",
+    "strs": "aBm",
+    "gIsSingleplayer": "kg",
+    "gMaxPlayers": "ez",
     "i": "aB"
 };
 ( () => {
@@ -48,51 +48,51 @@ const dictionary = {
         9306: (e, t, n) => {
             var o = n(4901)
               , r = n(6823)
-              , i = TypeError;
+              , a = TypeError;
             e.exports = function(e) {
                 if (o(e))
                     return e;
-                throw new i(r(e) + " is not a function")
+                throw new a(r(e) + " is not a function")
             }
         }
         ,
         6469: (e, t, n) => {
             var o = n(8227)
               , r = n(2360)
-              , i = n(4913).f
-              , a = o("unscopables")
+              , a = n(4913).f
+              , i = o("unscopables")
               , s = Array.prototype;
-            void 0 === s[a] && i(s, a, {
+            void 0 === s[i] && a(s, i, {
                 configurable: !0,
                 value: r(null)
             }),
             e.exports = function(e) {
-                s[a][e] = !0
+                s[i][e] = !0
             }
         }
         ,
         8551: (e, t, n) => {
             var o = n(34)
               , r = String
-              , i = TypeError;
+              , a = TypeError;
             e.exports = function(e) {
                 if (o(e))
                     return e;
-                throw new i(r(e) + " is not an object")
+                throw new a(r(e) + " is not an object")
             }
         }
         ,
         9617: (e, t, n) => {
             var o = n(5397)
               , r = n(5610)
-              , i = n(6198)
-              , a = function(e) {
-                return function(t, n, a) {
+              , a = n(6198)
+              , i = function(e) {
+                return function(t, n, i) {
                     var s = o(t)
-                      , c = i(s);
+                      , c = a(s);
                     if (0 === c)
                         return !e && -1;
-                    var l, u = r(a, c);
+                    var l, u = r(i, c);
                     if (e && n != n) {
                         for (; c > u; )
                             if ((l = s[u++]) != l)
@@ -105,16 +105,16 @@ const dictionary = {
                 }
             };
             e.exports = {
-                includes: a(!0),
-                indexOf: a(!1)
+                includes: i(!0),
+                indexOf: i(!1)
             }
         }
         ,
         7628: (e, t, n) => {
             var o = n(6198);
             e.exports = function(e, t) {
-                for (var n = o(e), r = new t(n), i = 0; i < n; i++)
-                    r[i] = e[n - i - 1];
+                for (var n = o(e), r = new t(n), a = 0; a < n; a++)
+                    r[a] = e[n - a - 1];
                 return r
             }
         }
@@ -122,19 +122,19 @@ const dictionary = {
         2195: (e, t, n) => {
             var o = n(9504)
               , r = o({}.toString)
-              , i = o("".slice);
+              , a = o("".slice);
             e.exports = function(e) {
-                return i(r(e), 8, -1)
+                return a(r(e), 8, -1)
             }
         }
         ,
         7740: (e, t, n) => {
             var o = n(9297)
               , r = n(5031)
-              , i = n(7347)
-              , a = n(4913);
+              , a = n(7347)
+              , i = n(4913);
             e.exports = function(e, t, n) {
-                for (var s = r(t), c = a.f, l = i.f, u = 0; u < s.length; u++) {
+                for (var s = r(t), c = i.f, l = a.f, u = 0; u < s.length; u++) {
                     var d = s[u];
                     o(e, d) || n && o(n, d) || c(e, d, l(t, d))
                 }
@@ -144,9 +144,9 @@ const dictionary = {
         6699: (e, t, n) => {
             var o = n(3724)
               , r = n(4913)
-              , i = n(6980);
+              , a = n(6980);
             e.exports = o ? function(e, t, n) {
-                return r.f(e, t, i(1, n))
+                return r.f(e, t, a(1, n))
             }
             : function(e, t, n) {
                 return e[t] = n,
@@ -168,15 +168,15 @@ const dictionary = {
         6840: (e, t, n) => {
             var o = n(4901)
               , r = n(4913)
-              , i = n(283)
-              , a = n(9433);
+              , a = n(283)
+              , i = n(9433);
             e.exports = function(e, t, n, s) {
                 s || (s = {});
                 var c = s.enumerable
                   , l = void 0 !== s.name ? s.name : t;
-                if (o(n) && i(n, l, s),
+                if (o(n) && a(n, l, s),
                 s.global)
-                    c ? e[t] = n : a(t, n);
+                    c ? e[t] = n : i(t, n);
                 else {
                     try {
                         s.unsafe ? e[t] && (c = !0) : delete e[t]
@@ -224,10 +224,10 @@ const dictionary = {
         4055: (e, t, n) => {
             var o = n(4576)
               , r = n(34)
-              , i = o.document
-              , a = r(i) && r(i.createElement);
+              , a = o.document
+              , i = r(a) && r(a.createElement);
             e.exports = function(e) {
-                return a ? i.createElement(e) : {}
+                return i ? a.createElement(e) : {}
             }
         }
         ,
@@ -250,17 +250,17 @@ const dictionary = {
         }
         ,
         9519: (e, t, n) => {
-            var o, r, i = n(4576), a = n(2839), s = i.process, c = i.Deno, l = s && s.versions || c && c.version, u = l && l.v8;
+            var o, r, a = n(4576), i = n(2839), s = a.process, c = a.Deno, l = s && s.versions || c && c.version, u = l && l.v8;
             u && (r = (o = u.split("."))[0] > 0 && o[0] < 4 ? 1 : +(o[0] + o[1])),
-            !r && a && (!(o = a.match(/Edge\/(\d+)/)) || o[1] >= 74) && (o = a.match(/Chrome\/(\d+)/)) && (r = +o[1]),
+            !r && i && (!(o = i.match(/Edge\/(\d+)/)) || o[1] >= 74) && (o = i.match(/Chrome\/(\d+)/)) && (r = +o[1]),
             e.exports = r
         }
         ,
         6518: (e, t, n) => {
             var o = n(4576)
               , r = n(7347).f
-              , i = n(6699)
-              , a = n(6840)
+              , a = n(6699)
+              , i = n(6840)
               , s = n(9433)
               , c = n(7740)
               , l = n(2796);
@@ -275,8 +275,8 @@ const dictionary = {
                                 continue;
                             c(p, d)
                         }
-                        (e.sham || d && d.sham) && i(p, "sham", !0),
-                        a(n, u, p, e)
+                        (e.sham || d && d.sham) && a(p, "sham", !0),
+                        i(n, u, p, e)
                     }
             }
         }
@@ -312,12 +312,12 @@ const dictionary = {
         350: (e, t, n) => {
             var o = n(3724)
               , r = n(9297)
-              , i = Function.prototype
-              , a = o && Object.getOwnPropertyDescriptor
-              , s = r(i, "name")
+              , a = Function.prototype
+              , i = o && Object.getOwnPropertyDescriptor
+              , s = r(a, "name")
               , c = s && "something" === function() {}
             .name
-              , l = s && (!o || o && a(i, "name").configurable);
+              , l = s && (!o || o && i(a, "name").configurable);
             e.exports = {
                 EXISTS: s,
                 PROPER: c,
@@ -328,11 +328,11 @@ const dictionary = {
         9504: (e, t, n) => {
             var o = n(616)
               , r = Function.prototype
-              , i = r.call
-              , a = o && r.bind.bind(i, i);
-            e.exports = o ? a : function(e) {
+              , a = r.call
+              , i = o && r.bind.bind(a, a);
+            e.exports = o ? i : function(e) {
                 return function() {
-                    return i.apply(e, arguments)
+                    return a.apply(e, arguments)
                 }
             }
         }
@@ -367,9 +367,9 @@ const dictionary = {
         9297: (e, t, n) => {
             var o = n(9504)
               , r = n(8981)
-              , i = o({}.hasOwnProperty);
+              , a = o({}.hasOwnProperty);
             e.exports = Object.hasOwn || function(e, t) {
-                return i(r(e), t)
+                return a(r(e), t)
             }
         }
         ,
@@ -385,9 +385,9 @@ const dictionary = {
         5917: (e, t, n) => {
             var o = n(3724)
               , r = n(9039)
-              , i = n(4055);
+              , a = n(4055);
             e.exports = !o && !r((function() {
-                return 7 !== Object.defineProperty(i("div"), "a", {
+                return 7 !== Object.defineProperty(a("div"), "a", {
                     get: function() {
                         return 7
                     }
@@ -399,33 +399,33 @@ const dictionary = {
         7055: (e, t, n) => {
             var o = n(9504)
               , r = n(9039)
-              , i = n(2195)
-              , a = Object
+              , a = n(2195)
+              , i = Object
               , s = o("".split);
             e.exports = r((function() {
-                return !a("z").propertyIsEnumerable(0)
+                return !i("z").propertyIsEnumerable(0)
             }
             )) ? function(e) {
-                return "String" === i(e) ? s(e, "") : a(e)
+                return "String" === a(e) ? s(e, "") : i(e)
             }
-            : a
+            : i
         }
         ,
         3706: (e, t, n) => {
             var o = n(9504)
               , r = n(4901)
-              , i = n(7629)
-              , a = o(Function.toString);
-            r(i.inspectSource) || (i.inspectSource = function(e) {
-                return a(e)
+              , a = n(7629)
+              , i = o(Function.toString);
+            r(a.inspectSource) || (a.inspectSource = function(e) {
+                return i(e)
             }
             ),
-            e.exports = i.inspectSource
+            e.exports = a.inspectSource
         }
         ,
         1181: (e, t, n) => {
-            var o, r, i, a = n(8622), s = n(4576), c = n(34), l = n(6699), u = n(9297), d = n(7629), p = n(6119), f = n(421), h = "Object already initialized", y = s.TypeError, m = s.WeakMap;
-            if (a || d.state) {
+            var o, r, a, i = n(8622), s = n(4576), c = n(34), l = n(6699), u = n(9297), d = n(7629), p = n(6119), f = n(421), h = "Object already initialized", y = s.TypeError, m = s.WeakMap;
+            if (i || d.state) {
                 var b = d.state || (d.state = new m);
                 b.get = b.get,
                 b.has = b.has,
@@ -442,7 +442,7 @@ const dictionary = {
                     return b.get(e) || {}
                 }
                 ,
-                i = function(e) {
+                a = function(e) {
                     return b.has(e)
                 }
             } else {
@@ -460,16 +460,16 @@ const dictionary = {
                     return u(e, g) ? e[g] : {}
                 }
                 ,
-                i = function(e) {
+                a = function(e) {
                     return u(e, g)
                 }
             }
             e.exports = {
                 set: o,
                 get: r,
-                has: i,
+                has: a,
                 enforce: function(e) {
-                    return i(e) ? r(e) : o(e, {})
+                    return a(e) ? r(e) : o(e, {})
                 },
                 getterFor: function(e) {
                     return function(t) {
@@ -495,18 +495,18 @@ const dictionary = {
         2796: (e, t, n) => {
             var o = n(9039)
               , r = n(4901)
-              , i = /#|\.prototype\./
-              , a = function(e, t) {
+              , a = /#|\.prototype\./
+              , i = function(e, t) {
                 var n = c[s(e)];
                 return n === u || n !== l && (r(t) ? o(t) : !!t)
             }
-              , s = a.normalize = function(e) {
-                return String(e).replace(i, ".").toLowerCase()
+              , s = i.normalize = function(e) {
+                return String(e).replace(a, ".").toLowerCase()
             }
-              , c = a.data = {}
-              , l = a.NATIVE = "N"
-              , u = a.POLYFILL = "P";
-            e.exports = a
+              , c = i.data = {}
+              , l = i.NATIVE = "N"
+              , u = i.POLYFILL = "P";
+            e.exports = i
         }
         ,
         4117: e => {
@@ -529,15 +529,15 @@ const dictionary = {
         757: (e, t, n) => {
             var o = n(7751)
               , r = n(4901)
-              , i = n(1625)
-              , a = n(7040)
+              , a = n(1625)
+              , i = n(7040)
               , s = Object;
-            e.exports = a ? function(e) {
+            e.exports = i ? function(e) {
                 return "symbol" == typeof e
             }
             : function(e) {
                 var t = o("Symbol");
-                return r(t) && i(t.prototype, s(e))
+                return r(t) && a(t.prototype, s(e))
             }
         }
         ,
@@ -551,8 +551,8 @@ const dictionary = {
         283: (e, t, n) => {
             var o = n(9504)
               , r = n(9039)
-              , i = n(4901)
-              , a = n(9297)
+              , a = n(4901)
+              , i = n(9297)
               , s = n(3724)
               , c = n(350).CONFIGURABLE
               , l = n(3706)
@@ -576,25 +576,25 @@ const dictionary = {
                 "Symbol(" === y(f(t), 0, 7) && (t = "[" + m(f(t), /^Symbol\(([^)]*)\).*$/, "$1") + "]"),
                 n && n.getter && (t = "get " + t),
                 n && n.setter && (t = "set " + t),
-                (!a(e, "name") || c && e.name !== t) && (s ? h(e, "name", {
+                (!i(e, "name") || c && e.name !== t) && (s ? h(e, "name", {
                     value: t,
                     configurable: !0
                 }) : e.name = t),
-                g && n && a(n, "arity") && e.length !== n.arity && h(e, "length", {
+                g && n && i(n, "arity") && e.length !== n.arity && h(e, "length", {
                     value: n.arity
                 });
                 try {
-                    n && a(n, "constructor") && n.constructor ? s && h(e, "prototype", {
+                    n && i(n, "constructor") && n.constructor ? s && h(e, "prototype", {
                         writable: !1
                     }) : e.prototype && (e.prototype = void 0)
                 } catch (e) {}
                 var o = d(e);
-                return a(o, "source") || (o.source = b(v, "string" == typeof t ? t : "")),
+                return i(o, "source") || (o.source = b(v, "string" == typeof t ? t : "")),
                 e
             }
             ;
             Function.prototype.toString = w((function() {
-                return i(this) && p(this).source || l(this)
+                return a(this) && p(this).source || l(this)
             }
             ), "toString")
         }
@@ -609,7 +609,7 @@ const dictionary = {
         }
         ,
         2360: (e, t, n) => {
-            var o, r = n(8551), i = n(6801), a = n(8727), s = n(421), c = n(397), l = n(4055), u = n(6119), d = "prototype", p = "script", f = u("IE_PROTO"), h = function() {}, y = function(e) {
+            var o, r = n(8551), a = n(6801), i = n(8727), s = n(421), c = n(397), l = n(4055), u = n(6119), d = "prototype", p = "script", f = u("IE_PROTO"), h = function() {}, y = function(e) {
                 return "<" + p + ">" + e + "</" + p + ">"
             }, m = function(e) {
                 e.write(y("")),
@@ -631,8 +631,8 @@ const dictionary = {
                 e.write(y("document.F=Object")),
                 e.close(),
                 e.F) : m(o);
-                for (var r = a.length; r--; )
-                    delete b[d][a[r]];
+                for (var r = i.length; r--; )
+                    delete b[d][i[r]];
                 return b()
             };
             s[f] = !0,
@@ -642,21 +642,21 @@ const dictionary = {
                 n = new h,
                 h[d] = null,
                 n[f] = e) : n = b(),
-                void 0 === t ? n : i.f(n, t)
+                void 0 === t ? n : a.f(n, t)
             }
         }
         ,
         6801: (e, t, n) => {
             var o = n(3724)
               , r = n(8686)
-              , i = n(4913)
-              , a = n(8551)
+              , a = n(4913)
+              , i = n(8551)
               , s = n(5397)
               , c = n(1072);
             t.f = o && !r ? Object.defineProperties : function(e, t) {
-                a(e);
+                i(e);
                 for (var n, o = s(t), r = c(t), l = r.length, u = 0; l > u; )
-                    i.f(e, n = r[u++], o[n]);
+                    a.f(e, n = r[u++], o[n]);
                 return e
             }
         }
@@ -664,8 +664,8 @@ const dictionary = {
         4913: (e, t, n) => {
             var o = n(3724)
               , r = n(5917)
-              , i = n(8686)
-              , a = n(8551)
+              , a = n(8686)
+              , i = n(8551)
               , s = n(6969)
               , c = TypeError
               , l = Object.defineProperty
@@ -673,10 +673,10 @@ const dictionary = {
               , d = "enumerable"
               , p = "configurable"
               , f = "writable";
-            t.f = o ? i ? function(e, t, n) {
-                if (a(e),
+            t.f = o ? a ? function(e, t, n) {
+                if (i(e),
                 t = s(t),
-                a(n),
+                i(n),
                 "function" == typeof e && "prototype" === t && "value"in n && f in n && !n[f]) {
                     var o = u(e, t);
                     o && o[f] && (e[t] = n.value,
@@ -689,9 +689,9 @@ const dictionary = {
                 return l(e, t, n)
             }
             : l : function(e, t, n) {
-                if (a(e),
+                if (i(e),
                 t = s(t),
-                a(n),
+                i(n),
                 r)
                     try {
                         return l(e, t, n)
@@ -706,8 +706,8 @@ const dictionary = {
         7347: (e, t, n) => {
             var o = n(3724)
               , r = n(9565)
-              , i = n(8773)
-              , a = n(6980)
+              , a = n(8773)
+              , i = n(6980)
               , s = n(5397)
               , c = n(6969)
               , l = n(9297)
@@ -721,7 +721,7 @@ const dictionary = {
                         return d(e, t)
                     } catch (e) {}
                 if (l(e, t))
-                    return a(!r(i.f, e, t), e[t])
+                    return i(!r(a.f, e, t), e[t])
             }
         }
         ,
@@ -745,16 +745,16 @@ const dictionary = {
         1828: (e, t, n) => {
             var o = n(9504)
               , r = n(9297)
-              , i = n(5397)
-              , a = n(9617).indexOf
+              , a = n(5397)
+              , i = n(9617).indexOf
               , s = n(421)
               , c = o([].push);
             e.exports = function(e, t) {
-                var n, o = i(e), l = 0, u = [];
+                var n, o = a(e), l = 0, u = [];
                 for (n in o)
                     !r(s, n) && r(o, n) && c(u, n);
                 for (; t.length > l; )
-                    r(o, n = t[l++]) && (~a(u, n) || c(u, n));
+                    r(o, n = t[l++]) && (~i(u, n) || c(u, n));
                 return u
             }
         }
@@ -783,30 +783,30 @@ const dictionary = {
         4270: (e, t, n) => {
             var o = n(9565)
               , r = n(4901)
-              , i = n(34)
-              , a = TypeError;
+              , a = n(34)
+              , i = TypeError;
             e.exports = function(e, t) {
                 var n, s;
-                if ("string" === t && r(n = e.toString) && !i(s = o(n, e)))
+                if ("string" === t && r(n = e.toString) && !a(s = o(n, e)))
                     return s;
-                if (r(n = e.valueOf) && !i(s = o(n, e)))
+                if (r(n = e.valueOf) && !a(s = o(n, e)))
                     return s;
-                if ("string" !== t && r(n = e.toString) && !i(s = o(n, e)))
+                if ("string" !== t && r(n = e.toString) && !a(s = o(n, e)))
                     return s;
-                throw new a("Can't convert object to primitive value")
+                throw new i("Can't convert object to primitive value")
             }
         }
         ,
         5031: (e, t, n) => {
             var o = n(7751)
               , r = n(9504)
-              , i = n(8480)
-              , a = n(3717)
+              , a = n(8480)
+              , i = n(3717)
               , s = n(8551)
               , c = r([].concat);
             e.exports = o("Reflect", "ownKeys") || function(e) {
-                var t = i.f(s(e))
-                  , n = a.f;
+                var t = a.f(s(e))
+                  , n = i.f;
                 return n ? c(t, n(e)) : t
             }
         }
@@ -824,18 +824,18 @@ const dictionary = {
         6119: (e, t, n) => {
             var o = n(5745)
               , r = n(3392)
-              , i = o("keys");
+              , a = o("keys");
             e.exports = function(e) {
-                return i[e] || (i[e] = r(e))
+                return a[e] || (a[e] = r(e))
             }
         }
         ,
         7629: (e, t, n) => {
             var o = n(6395)
               , r = n(4576)
-              , i = n(9433)
-              , a = "__core-js_shared__"
-              , s = e.exports = r[a] || i(a, {});
+              , a = n(9433)
+              , i = "__core-js_shared__"
+              , s = e.exports = r[i] || a(i, {});
             (s.versions || (s.versions = [])).push({
                 version: "3.44.0",
                 mode: o ? "pure" : "global",
@@ -855,10 +855,10 @@ const dictionary = {
         4495: (e, t, n) => {
             var o = n(9519)
               , r = n(9039)
-              , i = n(4576).String;
+              , a = n(4576).String;
             e.exports = !!Object.getOwnPropertySymbols && !r((function() {
                 var e = Symbol("symbol detection");
-                return !i(e) || !(Object(e)instanceof Symbol) || !Symbol.sham && o && o < 41
+                return !a(e) || !(Object(e)instanceof Symbol) || !Symbol.sham && o && o < 41
             }
             ))
         }
@@ -866,10 +866,10 @@ const dictionary = {
         5610: (e, t, n) => {
             var o = n(1291)
               , r = Math.max
-              , i = Math.min;
+              , a = Math.min;
             e.exports = function(e, t) {
                 var n = o(e);
-                return n < 0 ? r(n + t, 0) : i(n, t)
+                return n < 0 ? r(n + t, 0) : a(n, t)
             }
         }
         ,
@@ -909,20 +909,20 @@ const dictionary = {
         2777: (e, t, n) => {
             var o = n(9565)
               , r = n(34)
-              , i = n(757)
-              , a = n(5966)
+              , a = n(757)
+              , i = n(5966)
               , s = n(4270)
               , c = n(8227)
               , l = TypeError
               , u = c("toPrimitive");
             e.exports = function(e, t) {
-                if (!r(e) || i(e))
+                if (!r(e) || a(e))
                     return e;
-                var n, c = a(e, u);
+                var n, c = i(e, u);
                 if (c) {
                     if (void 0 === t && (t = "default"),
                     n = o(c, e, t),
-                    !r(n) || i(n))
+                    !r(n) || a(n))
                         return n;
                     throw new l("Can't convert object to primitive value")
                 }
@@ -954,10 +954,10 @@ const dictionary = {
         3392: (e, t, n) => {
             var o = n(9504)
               , r = 0
-              , i = Math.random()
-              , a = o(1.1 .toString);
+              , a = Math.random()
+              , i = o(1.1 .toString);
             e.exports = function(e) {
-                return "Symbol(" + (void 0 === e ? "" : e) + ")_" + a(++r + i, 36)
+                return "Symbol(" + (void 0 === e ? "" : e) + ")_" + i(++r + a, 36)
             }
         }
         ,
@@ -982,22 +982,22 @@ const dictionary = {
         8622: (e, t, n) => {
             var o = n(4576)
               , r = n(4901)
-              , i = o.WeakMap;
-            e.exports = r(i) && /native code/.test(String(i))
+              , a = o.WeakMap;
+            e.exports = r(a) && /native code/.test(String(a))
         }
         ,
         8227: (e, t, n) => {
             var o = n(4576)
               , r = n(5745)
-              , i = n(9297)
-              , a = n(3392)
+              , a = n(9297)
+              , i = n(3392)
               , s = n(4495)
               , c = n(7040)
               , l = o.Symbol
               , u = r("wks")
-              , d = c ? l.for || l : l && l.withoutSetter || a;
+              , d = c ? l.for || l : l && l.withoutSetter || i;
             e.exports = function(e) {
-                return i(u, e) || (u[e] = s && i(l, e) ? l[e] : d("Symbol." + e)),
+                return a(u, e) || (u[e] = s && a(l, e) ? l[e] : d("Symbol." + e)),
                 u[e]
             }
         }
@@ -1005,18 +1005,18 @@ const dictionary = {
         9678: (e, t, n) => {
             var o = n(6518)
               , r = n(7628)
-              , i = n(5397)
-              , a = n(6469)
+              , a = n(5397)
+              , i = n(6469)
               , s = Array;
             o({
                 target: "Array",
                 proto: !0
             }, {
                 toReversed: function() {
-                    return r(i(this), s)
+                    return r(a(this), s)
                 }
             }),
-            a("toReversed")
+            i("toReversed")
         }
         ,
         4151: (e, t, n) => {
@@ -1033,11 +1033,11 @@ const dictionary = {
         var r = t[o];
         if (void 0 !== r)
             return r.exports;
-        var i = t[o] = {
+        var a = t[o] = {
             exports: {}
         };
-        return e[o].call(i.exports, i, i.exports, n),
-        i.exports
+        return e[o].call(a.exports, a, a.exports, n),
+        a.exports
     }
     n.g = function() {
         if ("object" == typeof globalThis)
@@ -1049,9 +1049,9 @@ const dictionary = {
                 return window
         }
     }();
-    const o = JSON.parse('{"rE":"0.6.18","_e":"Dec 30","Ao":["Updated custom lobbies to the latest version","When creating a custom lobby, you can now select a region where it will be created","The latency to the custom lobby server is displayed below the header in the custom lobby UI","Improved the propaganda blocking feature","Added automatic patches for the special custom lobby version (https://fxclient.github.io/custom-lobbies) which continues to serve its purpose of guaranteeing access to custom lobbies while allowing the regular version to quickly be updated to the latest Territorial.io version, neglecting the custom lobby patches if needed"]}')
+    const o = JSON.parse('{"rE":"0.6.18.1","_e":"Jan 25","Ao":["Fixes for game update v2.15.3","The \\"What\'s new\\" screen is no longer shown automatically after insignificant updates (such as this one)"],"oR":false}')
       , r = e => parseFloat(e.toFixed(12));
-    function i(e) {
+    function a(e) {
         const t = document.createElement("p");
         t.innerText = "Attack Percentage Keybinds";
         const n = document.createElement("div");
@@ -1069,7 +1069,7 @@ const dictionary = {
                 type: "absolute",
                 value: .8
             }),
-            this.container.appendChild(i(this.objectArray.length - 1)),
+            this.container.appendChild(a(this.objectArray.length - 1)),
             o.scrollIntoView(!1)
         }
         ,
@@ -1084,10 +1084,10 @@ const dictionary = {
             0 === this.objectArray.length)
                 return this.container.innerText = "No custom attack percentage keybinds added";
             for (var e = 0; e < this.objectArray.length; e++)
-                this.container.appendChild(i(e))
+                this.container.appendChild(a(e))
         }
         ;
-        const i = e => {
+        const a = e => {
             var t = document.createElement("div");
             this.objectKeys.forEach((n => {
                 t.appendChild(this.createInputField(e, n))
@@ -1167,16 +1167,16 @@ const dictionary = {
         ,
         this
     }
-    const a = {
+    const i = {
         count: 0,
         removeWins: function() {
-            confirm("Do you really want to reset your wins?") && (a.count = 0,
+            confirm("Do you really want to reset your wins?") && (i.count = 0,
             localStorage.removeItem("fx_winCount"),
             alert("Successfully reset wins"))
         }
     };
-    null !== localStorage.getItem("fx_winCount") && (a.count = localStorage.getItem("fx_winCount"));
-    const s = a;
+    null !== localStorage.getItem("fx_winCount") && (i.count = localStorage.getItem("fx_winCount"));
+    const s = i;
     var c = {};
     const l = document.getElementById("windowContainer");
     function u(e) {
@@ -1242,7 +1242,7 @@ const dictionary = {
       , b = document.createElement("h1");
     b.textContent = "What's new";
     const g = document.createElement("p");
-    g.textContent = `in Territorial.io v${y}`;
+    g.textContent = `in FX Client v${y}`;
     const v = document.createElement("ul");
     function w() {
         f.openWindow("changelog")
@@ -1350,14 +1350,14 @@ const dictionary = {
             label: "Custom main menu background:",
             placeholder: "Enter an image URL here",
             tooltip: "A custom image to be shown as the main menu background instead of the currently selected map."
-        }, i, {
+        }, a, {
             for: "keybindButtons",
             type: "checkbox",
             label: "Keybind buttons",
             note: "Show keybind buttons above the troop selector (max 6)"
         }, function(e) {
             const t = document.createElement("p");
-            t.innerText = `Territorial.io v${o.rE}`;
+            t.innerText = `FX Client v${o.rE}`;
             const n = document.createElement("p");
             n.innerHTML = '<a href="https://discord.gg/dyxcwdNKwK" target="_blank">Discord server</a> |\n        <a href="https://github.com/fxclient/FXclient#readme">Github repository</a>';
             const r = document.createElement("button");
@@ -1369,20 +1369,20 @@ const dictionary = {
           , t = document.querySelector(".settings .scrollable");
         var n = {}
           , r = {}
-          , a = [];
+          , i = [];
         e.forEach((e => {
             if ("function" == typeof e) {
                 const n = document.createElement("div");
-                return a.push(new e(n)),
+                return i.push(new e(n)),
                 t.append(n)
             }
             const o = document.createElement("label");
             e.tooltip && (o.title = e.tooltip);
-            const i = e.type.endsWith("Input")
-              , s = document.createElement(i || "checkbox" === e.type ? "input" : "selectMenu" === e.type ? "select" : "button");
+            const a = e.type.endsWith("Input")
+              , s = document.createElement(a || "checkbox" === e.type ? "input" : "selectMenu" === e.type ? "select" : "button");
             if ("textInput" === e.type && (s.type = "text"),
             e.placeholder && (s.placeholder = e.placeholder),
-            (i || "selectMenu" === e.type) && (n[e.for] = s),
+            (a || "selectMenu" === e.type) && (n[e.for] = s),
             e.text && (s.innerText = e.text),
             e.action && s.addEventListener("click", e.action),
             e.label && o.append(e.label + " "),
@@ -1480,7 +1480,7 @@ const dictionary = {
                 r[e].checked = E[e]
             }
             )),
-            a.forEach((e => e.update?.(E)))
+            i.forEach((e => e.update?.(E)))
         }
         ,
         this.resetAll = function() {
@@ -1554,16 +1554,16 @@ const dictionary = {
             e.textBaseline = "middle",
             e.textAlign = "center";
             const r = t / this.tabLabels.length
-              , i = n + this.tabBarOffset / 2;
-            this.tabLabels.forEach(( (t, a) => {
-                0 !== a && e.fillRect(r * a, n, 1, this.tabBarOffset),
-                this.selectedTab === a && (e.fillStyle = o,
-                e.fillRect(r * a, n, r, this.tabBarOffset),
+              , a = n + this.tabBarOffset / 2;
+            this.tabLabels.forEach(( (t, i) => {
+                0 !== i && e.fillRect(r * i, n, 1, this.tabBarOffset),
+                this.selectedTab === i && (e.fillStyle = o,
+                e.fillRect(r * i, n, r, this.tabBarOffset),
                 e.fillStyle = "rgb(255,255,255)"),
-                this.tabHovering === a && (e.fillStyle = "rgba(255,255,255,0.3)",
-                e.fillRect(r * a, n, r, this.tabBarOffset),
+                this.tabHovering === i && (e.fillStyle = "rgba(255,255,255,0.3)",
+                e.fillRect(r * i, n, r, this.tabBarOffset),
                 e.fillStyle = "rgb(255,255,255)"),
-                e.fillText(t, r * a + r / 2, i)
+                e.fillText(t, r * i + r / 2, a)
             }
             ))
         }
@@ -1648,13 +1648,13 @@ const dictionary = {
         let e = !1;
         function t(e, t, n, o) {
             const r = C("rawPlayerNames")
-              , i = document.createElement("tr");
-            o && i.setAttribute("class", "new");
-            let a = `<td><span class="color-light-gray">${t}.</span> `;
-            return n === e[1] ? a += `Received <span class="color-green">${e[2]}</span> resources from ${B(r[e[0]])}` : a += `Sent <span class="color-red">${e[2]}</span> resources to ${B(r[e[1]])}`,
-            a += "</td>",
-            i.innerHTML = a,
-            i
+              , a = document.createElement("tr");
+            o && a.setAttribute("class", "new");
+            let i = `<td><span class="color-light-gray">${t}.</span> `;
+            return n === e[1] ? i += `Received <span class="color-green">${e[2]}</span> resources from ${B(r[e[0]])}` : i += `Sent <span class="color-red">${e[2]}</span> resources to ${B(r[e[1]])}`,
+            i += "</td>",
+            a.innerHTML = i,
+            a
         }
         this.getHistoryOf = function(t) {
             return function(e, t) {
@@ -1753,12 +1753,12 @@ const dictionary = {
         getDensity: function(e, t=C("playerBalances"), n=C("playerTerritories")) {
             return "percentage" === L().densityDisplayStyle ? (t[e] / (150 * (0 === n[e] ? 1 : n[e])) * 100).toFixed(1) + "%" : (t[e] / (0 === n[e] ? 1 : n[e])).toFixed(1)
         },
-        isPointInRectangle: function(e, t, n, o, r, i) {
-            return e >= n && e <= n + r && t >= o && t <= o + i
+        isPointInRectangle: function(e, t, n, o, r, a) {
+            return e >= n && e <= n + r && t >= o && t <= o + a
         },
         fillTextMultiline: function(e, t, n, o, r) {
-            const i = parseInt(e.font.split(" ").find((e => e.endsWith("px"))).slice(0, -2));
-            t.split("\n").forEach(( (t, a) => e.fillText(t, n, o + a * i, r)))
+            const a = parseInt(e.font.split(" ").find((e => e.endsWith("px"))).slice(0, -2));
+            t.split("\n").forEach(( (t, i) => e.fillText(t, n, o + i * a, r)))
         },
         textStyleBasedOnDensity: function(e) {
             const t = C("playerBalances")
@@ -1774,9 +1774,9 @@ const dictionary = {
             let n, o;
             if (t.type.includes("touch")) {
                 const {touches: e, changedTouches: r} = t.originalEvent ?? t
-                  , i = e[0] ?? r[0];
-                n = i.pageX,
-                o = i.pageY
+                  , a = e[0] ?? r[0];
+                n = a.pageX,
+                o = a.pageY
             } else
                 t.type.includes("mouse") && (n = t.clientX,
                 o = t.clientY);
@@ -1823,15 +1823,15 @@ const dictionary = {
             o.font = "bold " + t / 2 + "px " + r,
             o.textAlign = "center",
             o.textBaseline = "middle";
-            const i = L().attackPercentageKeybinds.slice(0, 6)
-              , a = P() / 4
-              , s = (e - 5 * a) / 6;
-            i.forEach(( (e, n) => {
+            const a = L().attackPercentageKeybinds.slice(0, 6)
+              , i = P() / 4
+              , s = (e - 5 * i) / 6;
+            a.forEach(( (e, n) => {
                 o.fillStyle = "rgba(0, 0, 0, 0.8)",
-                o.fillRect(n * (s + a), 0, s, t),
+                o.fillRect(n * (s + i), 0, s, t),
                 o.fillStyle = "white";
                 const r = "absolute" === e.type ? (100 * e.value).toFixed() + "%" : "x " + Math.round(100 * e.value) / 100;
-                o.fillText(r, (n + .5) * (s + a), t / 2)
+                o.fillText(r, (n + .5) * (s + i), t / 2)
             }
             ))
         }
@@ -1849,8 +1849,8 @@ const dictionary = {
             e.drawImage(J, t, n - (K + P() / 4))
         }
     }
-      , q = "wss://fx-lobbies.peshomir.workers.dev/";
-    let X = !1
+      , X = "wss://fx-lobbies.peshomir.workers.dev/";
+    let q = !1
       , V = ""
       , Y = () => {}
       , Q = () => {}
@@ -1873,13 +1873,13 @@ const dictionary = {
     oe.style.marginBlockStart = "0.5em";
     const re = document.createElement("p");
     re.style.marginTop = "0px";
-    const ie = document.createElement("div");
-    ie.className = "customlobby-main";
-    const ae = document.createElement("div")
+    const ae = document.createElement("div");
+    ae.className = "customlobby-main";
+    const ie = document.createElement("div")
       , se = document.createElement("p");
     se.textContent = "0 Players";
     const ce = document.createElement("div");
-    ae.append(se, ce);
+    ie.append(se, ce);
     const le = document.createElement("div");
     le.className = "text-align-left";
     const ue = {
@@ -2003,7 +2003,7 @@ const dictionary = {
         le.append(n)
     }
     )),
-    ie.append(ae, le);
+    ae.append(ie, le);
     const me = document.createElement("footer");
     function be(e, t) {
         const n = document.createElement("button");
@@ -2047,7 +2047,7 @@ const dictionary = {
         Z(1, r)
     }
     me.append(ge, ve, we),
-    ne.append(oe, re, ie, me),
+    ne.append(oe, re, ae, me),
     document.getElementById("lobbyCode").addEventListener("input", ( ({target: e}) => {
         5 === e.value.length && (V = e.value.toLowerCase(),
         e.value = "",
@@ -2113,7 +2113,7 @@ const dictionary = {
         Ee("ping", performance.now())
     }
     function Fe(e) {
-        X = e,
+        q = e,
         !1 === e ? (f.closeWindow("customLobby"),
         void 0 !== Se && clearInterval(Se)) : Se = setInterval(Ae, 1e4)
     }
@@ -2144,12 +2144,12 @@ const dictionary = {
                 ge.disabled = !Oe,
                 Oe ? le.classList.remove("disabled") : le.classList.add("disabled"),
                 Object.entries(r.options).forEach(( ([e,t]) => fe(e, t))),
-                i = r.players,
-                a = r.id,
+                a = r.players,
+                i = r.id,
                 Te = [],
                 ce.innerHTML = "",
-                i.forEach(Ie),
-                ke = Te[a],
+                a.forEach(Ie),
+                ke = Te[i],
                 Ce();
             else if ("addPlayer" === o)
                 Ie({
@@ -2182,14 +2182,14 @@ const dictionary = {
                     e.isHost || (e.kickButton.className = "")
                 }
                 ))) : "serverMessage" === o && alert(r);
-            var i, a;
+            var a, i;
             return !0
         },
         getSocketURL: function() {
             if ("" !== V)
-                return q + "join?" + V;
+                return X + "join?" + V;
             const e = document.getElementById("customLobbyRegion").value;
-            return q + "create" + ("default" === e ? "" : `?location=${e}`)
+            return X + "create" + ("default" === e ? "" : `?location=${e}`)
         },
         getPlayerId: function() {
             let e = 0;
@@ -2222,31 +2222,31 @@ const dictionary = {
         hideWindow: function() {
             f.closeWindow("customLobby")
         },
-        isActive: () => X,
+        isActive: () => q,
         setActive: Fe
     }
-      , {rE: Ne, _e: Me} = o;
+      , {rE: Ne, _e: Me, oR: He} = o;
     window.__fx = window.__fx || {};
-    const He = window.__fx;
-    He.version = Ne + " " + Me,
-    He.isCustomLobbyVersion = window.location.href.startsWith("https://fxclient.github.io/custom-lobbies");
-    const We = localStorage.getItem("fx_version");
-    We === Ne || He.isCustomLobbyVersion || (localStorage.setItem("fx_version", Ne),
-    null !== We && w()),
-    He.settingsManager = T,
-    He.leaderboardFilter = A,
-    He.utils = _,
-    He.WindowManager = f,
-    He.keybindFunctions = U,
-    He.keybindHandler = e => {
+    const We = window.__fx;
+    We.version = Ne + " " + Me,
+    We.isCustomLobbyVersion = window.location.href.startsWith("https://fxclient.github.io/custom-lobbies");
+    const De = localStorage.getItem("fx_version");
+    De === Ne || We.isCustomLobbyVersion || (localStorage.setItem("fx_version", Ne),
+    null !== De && He && w()),
+    We.settingsManager = T,
+    We.leaderboardFilter = A,
+    We.utils = _,
+    We.WindowManager = f,
+    We.keybindFunctions = U,
+    We.keybindHandler = e => {
         const t = L().attackPercentageKeybinds.find((t => t.key === e));
         return void 0 !== t && (0 !== C("gameState") && $(t),
         !0)
     }
     ,
-    He.mobileKeybinds = z,
-    He.donationsTracker = H,
-    He.reportError = function(e, t) {
+    We.mobileKeybinds = z,
+    We.donationsTracker = H,
+    We.reportError = function(e, t) {
         function n(e) {
             try {
                 return C(e)
@@ -2274,11 +2274,11 @@ const dictionary = {
         }).catch((e => alert("Failed to report error: " + e)))
     }
     ,
-    He.playerList = D,
-    He.hoveringTooltip = R,
-    He.clanFilter = F,
-    He.wins = s,
-    He.customLobby = Be,
-    console.log("Successfully loaded Territorial.io")
+    We.playerList = D,
+    We.hoveringTooltip = R,
+    We.clanFilter = F,
+    We.wins = s,
+    We.customLobby = Be,
+    console.log("Successfully loaded FX Client")
 }
 )();
