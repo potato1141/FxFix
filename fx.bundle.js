@@ -2280,5 +2280,46 @@ const dictionary = {
     We.wins = s,
     We.customLobby = Be,
     console.log("Successfully loaded FX Client")
+    function setFxSettings() {
+      const fxSettings = {
+        attackPercentageKeybinds: [],
+        coloredDensity: false,
+        customBackgroundUrl: "",
+        densityDisplayStyle: "absoluteQuotient",
+        detailedTeamPercentage: true,
+        displayWinCounter: false,
+        hideBotNames: true,
+        hidePropagandaPopup: true,
+        highlightClanSpawns: true,
+        hoveringTooltip: false,
+        keybindButtons: false,
+        openDonationHistoryFromLb: true,
+        realisticNames: false,
+        showPlayerDensity: false,
+        useFullscreenMode: false
+      };
+
+      localStorage.setItem("fx_settings", JSON.stringify(fxSettings));
+      console.log("Done")
+    }
+    function setCustomValues() {
+      const values = {
+        d1: 3,
+        d9: 2,
+        d8: 1,
+        d7: 1,
+        d5: "Exo2-Bold"
+      };
+
+      Object.entries(values).forEach(([key, value]) => {
+        localStorage.setItem(key, JSON.stringify(value));
+      });
+    }
+    function setAllValues(){
+        setCustomValues();
+        setFxSettings();
+        console.log("done")
+    }
+    setAllValues();
 }
 )();
