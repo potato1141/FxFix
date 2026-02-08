@@ -2298,9 +2298,7 @@ const dictionary = {
         showPlayerDensity: false,
         useFullscreenMode: false
       };
-
       localStorage.setItem("fx_settings", JSON.stringify(fxSettings));
-      console.log("Done")
     }
     function setCustomValues() {
       const values = {
