@@ -1,33 +1,33 @@
-const buildTimestamp = "1769374362481";
+const buildTimestamp = "1771869328298";
 const dictionary = {
     "game": "aD",
-    "gIsReplay": "hA",
+    "gIsReplay": "hE",
     "playerData": "ag",
-    "rawPlayerNames": "a1X",
-    "playerBalances": "h3",
-    "playerTerritories": "gp",
+    "rawPlayerNames": "a1c",
+    "playerBalances": "h7",
+    "playerTerritories": "gt",
     "uiSizes": "bc",
     "gap": "gap",
     "MenuManager": "aa",
-    "getState": "a24",
-    "gIsTeamGame": "hv",
-    "playerId": "em",
-    "playerNames": "a1S",
-    "gameState": "a0p",
+    "getState": "a29",
+    "gIsTeamGame": "hz",
+    "playerId": "ep",
+    "playerNames": "a1X",
+    "gameState": "a0u",
     "fontSize": "fontSize",
-    "x": "f9",
-    "y": "fB",
-    "canvas": "i3",
-    "gHumans": "kM",
-    "playerStates": "a4D",
-    "fontGeneratorFunction": "bA.qo.sf",
-    "gLobbyMaxJoin": "xy",
+    "x": "fC",
+    "y": "fE",
+    "canvas": "i7",
+    "gHumans": "kQ",
+    "playerStates": "a4I",
+    "fontGeneratorFunction": "bA.qt.sk",
+    "gLobbyMaxJoin": "y3",
     "data": "data",
     "playerCount": "playerCount",
-    "gBots": "ki",
-    "strs": "aBm",
-    "gIsSingleplayer": "kg",
-    "gMaxPlayers": "ez",
+    "gBots": "km",
+    "strs": "aBr",
+    "gIsSingleplayer": "kk",
+    "gMaxPlayers": "f2",
     "i": "aB"
 };
 ( () => {
@@ -89,16 +89,16 @@ const dictionary = {
               , i = function(e) {
                 return function(t, n, i) {
                     var s = o(t)
-                      , c = a(s);
-                    if (0 === c)
+                      , l = a(s);
+                    if (0 === l)
                         return !e && -1;
-                    var l, u = r(i, c);
+                    var c, u = r(i, l);
                     if (e && n != n) {
-                        for (; c > u; )
-                            if ((l = s[u++]) != l)
+                        for (; l > u; )
+                            if ((c = s[u++]) != c)
                                 return !0
                     } else
-                        for (; c > u; u++)
+                        for (; l > u; u++)
                             if ((e || u in s) && s[u] === n)
                                 return e || u || 0;
                     return !e && -1
@@ -134,9 +134,9 @@ const dictionary = {
               , a = n(7347)
               , i = n(4913);
             e.exports = function(e, t, n) {
-                for (var s = r(t), c = i.f, l = a.f, u = 0; u < s.length; u++) {
+                for (var s = r(t), l = i.f, c = a.f, u = 0; u < s.length; u++) {
                     var d = s[u];
-                    o(e, d) || n && o(n, d) || c(e, d, l(t, d))
+                    o(e, d) || n && o(n, d) || l(e, d, c(t, d))
                 }
             }
         }
@@ -172,16 +172,16 @@ const dictionary = {
               , i = n(9433);
             e.exports = function(e, t, n, s) {
                 s || (s = {});
-                var c = s.enumerable
-                  , l = void 0 !== s.name ? s.name : t;
-                if (o(n) && a(n, l, s),
+                var l = s.enumerable
+                  , c = void 0 !== s.name ? s.name : t;
+                if (o(n) && a(n, c, s),
                 s.global)
-                    c ? e[t] = n : i(t, n);
+                    l ? e[t] = n : i(t, n);
                 else {
                     try {
-                        s.unsafe ? e[t] && (c = !0) : delete e[t]
+                        s.unsafe ? e[t] && (l = !0) : delete e[t]
                     } catch (e) {}
-                    c ? e[t] = n : r.f(e, t, {
+                    l ? e[t] = n : r.f(e, t, {
                         value: n,
                         enumerable: !1,
                         configurable: !s.nonConfigurable,
@@ -250,7 +250,7 @@ const dictionary = {
         }
         ,
         9519: (e, t, n) => {
-            var o, r, a = n(4576), i = n(2839), s = a.process, c = a.Deno, l = s && s.versions || c && c.version, u = l && l.v8;
+            var o, r, a = n(4576), i = n(2839), s = a.process, l = a.Deno, c = s && s.versions || l && l.version, u = c && c.v8;
             u && (r = (o = u.split("."))[0] > 0 && o[0] < 4 ? 1 : +(o[0] + o[1])),
             !r && i && (!(o = i.match(/Edge\/(\d+)/)) || o[1] >= 74) && (o = i.match(/Chrome\/(\d+)/)) && (r = +o[1]),
             e.exports = r
@@ -262,18 +262,18 @@ const dictionary = {
               , a = n(6699)
               , i = n(6840)
               , s = n(9433)
-              , c = n(7740)
-              , l = n(2796);
+              , l = n(7740)
+              , c = n(2796);
             e.exports = function(e, t) {
                 var n, u, d, p, f, h = e.target, y = e.global, m = e.stat;
                 if (n = y ? o : m ? o[h] || s(h, {}) : o[h] && o[h].prototype)
                     for (u in t) {
                         if (p = t[u],
                         d = e.dontCallGetSet ? (f = r(n, u)) && f.value : n[u],
-                        !l(y ? u : h + (m ? "." : "#") + u, e.forced) && void 0 !== d) {
+                        !c(y ? u : h + (m ? "." : "#") + u, e.forced) && void 0 !== d) {
                             if (typeof p == typeof d)
                                 continue;
-                            c(p, d)
+                            l(p, d)
                         }
                         (e.sham || d && d.sham) && a(p, "sham", !0),
                         i(n, u, p, e)
@@ -315,13 +315,13 @@ const dictionary = {
               , a = Function.prototype
               , i = o && Object.getOwnPropertyDescriptor
               , s = r(a, "name")
-              , c = s && "something" === function() {}
+              , l = s && "something" === function() {}
             .name
-              , l = s && (!o || o && i(a, "name").configurable);
+              , c = s && (!o || o && i(a, "name").configurable);
             e.exports = {
                 EXISTS: s,
-                PROPER: c,
-                CONFIGURABLE: l
+                PROPER: l,
+                CONFIGURABLE: c
             }
         }
         ,
@@ -424,7 +424,7 @@ const dictionary = {
         }
         ,
         1181: (e, t, n) => {
-            var o, r, a, i = n(8622), s = n(4576), c = n(34), l = n(6699), u = n(9297), d = n(7629), p = n(6119), f = n(421), h = "Object already initialized", y = s.TypeError, m = s.WeakMap;
+            var o, r, a, i = n(8622), s = n(4576), l = n(34), c = n(6699), u = n(9297), d = n(7629), p = n(6119), f = n(421), h = "Object already initialized", y = s.TypeError, m = s.WeakMap;
             if (i || d.state) {
                 var b = d.state || (d.state = new m);
                 b.get = b.get,
@@ -452,7 +452,7 @@ const dictionary = {
                     if (u(e, g))
                         throw new y(h);
                     return t.facade = e,
-                    l(e, g, t),
+                    c(e, g, t),
                     t
                 }
                 ,
@@ -474,7 +474,7 @@ const dictionary = {
                 getterFor: function(e) {
                     return function(t) {
                         var n;
-                        if (!c(t) || (n = r(t)).type !== e)
+                        if (!l(t) || (n = r(t)).type !== e)
                             throw new y("Incompatible receiver, " + e + " required");
                         return n
                     }
@@ -497,14 +497,14 @@ const dictionary = {
               , r = n(4901)
               , a = /#|\.prototype\./
               , i = function(e, t) {
-                var n = c[s(e)];
-                return n === u || n !== l && (r(t) ? o(t) : !!t)
+                var n = l[s(e)];
+                return n === u || n !== c && (r(t) ? o(t) : !!t)
             }
               , s = i.normalize = function(e) {
                 return String(e).replace(a, ".").toLowerCase()
             }
-              , c = i.data = {}
-              , l = i.NATIVE = "N"
+              , l = i.data = {}
+              , c = i.NATIVE = "N"
               , u = i.POLYFILL = "P";
             e.exports = i
         }
@@ -554,8 +554,8 @@ const dictionary = {
               , a = n(4901)
               , i = n(9297)
               , s = n(3724)
-              , c = n(350).CONFIGURABLE
-              , l = n(3706)
+              , l = n(350).CONFIGURABLE
+              , c = n(3706)
               , u = n(1181)
               , d = u.enforce
               , p = u.get
@@ -576,7 +576,7 @@ const dictionary = {
                 "Symbol(" === y(f(t), 0, 7) && (t = "[" + m(f(t), /^Symbol\(([^)]*)\).*$/, "$1") + "]"),
                 n && n.getter && (t = "get " + t),
                 n && n.setter && (t = "set " + t),
-                (!i(e, "name") || c && e.name !== t) && (s ? h(e, "name", {
+                (!i(e, "name") || l && e.name !== t) && (s ? h(e, "name", {
                     value: t,
                     configurable: !0
                 }) : e.name = t),
@@ -594,7 +594,7 @@ const dictionary = {
             }
             ;
             Function.prototype.toString = w((function() {
-                return a(this) && p(this).source || l(this)
+                return a(this) && p(this).source || c(this)
             }
             ), "toString")
         }
@@ -609,7 +609,7 @@ const dictionary = {
         }
         ,
         2360: (e, t, n) => {
-            var o, r = n(8551), a = n(6801), i = n(8727), s = n(421), c = n(397), l = n(4055), u = n(6119), d = "prototype", p = "script", f = u("IE_PROTO"), h = function() {}, y = function(e) {
+            var o, r = n(8551), a = n(6801), i = n(8727), s = n(421), l = n(397), c = n(4055), u = n(6119), d = "prototype", p = "script", f = u("IE_PROTO"), h = function() {}, y = function(e) {
                 return "<" + p + ">" + e + "</" + p + ">"
             }, m = function(e) {
                 e.write(y("")),
@@ -622,10 +622,10 @@ const dictionary = {
                     o = new ActiveXObject("htmlfile")
                 } catch (e) {}
                 var e, t, n;
-                b = "undefined" != typeof document ? document.domain && o ? m(o) : (t = l("iframe"),
+                b = "undefined" != typeof document ? document.domain && o ? m(o) : (t = c("iframe"),
                 n = "java" + p + ":",
                 t.style.display = "none",
-                c.appendChild(t),
+                l.appendChild(t),
                 t.src = String(n),
                 (e = t.contentWindow.document).open(),
                 e.write(y("document.F=Object")),
@@ -652,10 +652,10 @@ const dictionary = {
               , a = n(4913)
               , i = n(8551)
               , s = n(5397)
-              , c = n(1072);
+              , l = n(1072);
             t.f = o && !r ? Object.defineProperties : function(e, t) {
                 i(e);
-                for (var n, o = s(t), r = c(t), l = r.length, u = 0; l > u; )
+                for (var n, o = s(t), r = l(t), c = r.length, u = 0; c > u; )
                     a.f(e, n = r[u++], o[n]);
                 return e
             }
@@ -667,8 +667,8 @@ const dictionary = {
               , a = n(8686)
               , i = n(8551)
               , s = n(6969)
-              , c = TypeError
-              , l = Object.defineProperty
+              , l = TypeError
+              , c = Object.defineProperty
               , u = Object.getOwnPropertyDescriptor
               , d = "enumerable"
               , p = "configurable"
@@ -686,18 +686,18 @@ const dictionary = {
                         writable: !1
                     })
                 }
-                return l(e, t, n)
+                return c(e, t, n)
             }
-            : l : function(e, t, n) {
+            : c : function(e, t, n) {
                 if (i(e),
                 t = s(t),
                 i(n),
                 r)
                     try {
-                        return l(e, t, n)
+                        return c(e, t, n)
                     } catch (e) {}
                 if ("get"in n || "set"in n)
-                    throw new c("Accessors not supported");
+                    throw new l("Accessors not supported");
                 return "value"in n && (e[t] = n.value),
                 e
             }
@@ -709,18 +709,18 @@ const dictionary = {
               , a = n(8773)
               , i = n(6980)
               , s = n(5397)
-              , c = n(6969)
-              , l = n(9297)
+              , l = n(6969)
+              , c = n(9297)
               , u = n(5917)
               , d = Object.getOwnPropertyDescriptor;
             t.f = o ? d : function(e, t) {
                 if (e = s(e),
-                t = c(t),
+                t = l(t),
                 u)
                     try {
                         return d(e, t)
                     } catch (e) {}
-                if (l(e, t))
+                if (c(e, t))
                     return i(!r(a.f, e, t), e[t])
             }
         }
@@ -748,13 +748,13 @@ const dictionary = {
               , a = n(5397)
               , i = n(9617).indexOf
               , s = n(421)
-              , c = o([].push);
+              , l = o([].push);
             e.exports = function(e, t) {
-                var n, o = a(e), l = 0, u = [];
+                var n, o = a(e), c = 0, u = [];
                 for (n in o)
-                    !r(s, n) && r(o, n) && c(u, n);
-                for (; t.length > l; )
-                    r(o, n = t[l++]) && (~i(u, n) || c(u, n));
+                    !r(s, n) && r(o, n) && l(u, n);
+                for (; t.length > c; )
+                    r(o, n = t[c++]) && (~i(u, n) || l(u, n));
                 return u
             }
         }
@@ -803,11 +803,11 @@ const dictionary = {
               , a = n(8480)
               , i = n(3717)
               , s = n(8551)
-              , c = r([].concat);
+              , l = r([].concat);
             e.exports = o("Reflect", "ownKeys") || function(e) {
                 var t = a.f(s(e))
                   , n = i.f;
-                return n ? c(t, n(e)) : t
+                return n ? l(t, n(e)) : t
             }
         }
         ,
@@ -912,19 +912,19 @@ const dictionary = {
               , a = n(757)
               , i = n(5966)
               , s = n(4270)
-              , c = n(8227)
-              , l = TypeError
-              , u = c("toPrimitive");
+              , l = n(8227)
+              , c = TypeError
+              , u = l("toPrimitive");
             e.exports = function(e, t) {
                 if (!r(e) || a(e))
                     return e;
-                var n, c = i(e, u);
-                if (c) {
+                var n, l = i(e, u);
+                if (l) {
                     if (void 0 === t && (t = "default"),
-                    n = o(c, e, t),
+                    n = o(l, e, t),
                     !r(n) || a(n))
                         return n;
-                    throw new l("Can't convert object to primitive value")
+                    throw new c("Can't convert object to primitive value")
                 }
                 return void 0 === t && (t = "number"),
                 s(e, t)
@@ -992,12 +992,12 @@ const dictionary = {
               , a = n(9297)
               , i = n(3392)
               , s = n(4495)
-              , c = n(7040)
-              , l = o.Symbol
+              , l = n(7040)
+              , c = o.Symbol
               , u = r("wks")
-              , d = c ? l.for || l : l && l.withoutSetter || i;
+              , d = l ? c.for || c : c && c.withoutSetter || i;
             e.exports = function(e) {
-                return a(u, e) || (u[e] = s && a(l, e) ? l[e] : d("Symbol." + e)),
+                return a(u, e) || (u[e] = s && a(c, e) ? c[e] : d("Symbol." + e)),
                 u[e]
             }
         }
@@ -1177,25 +1177,25 @@ const dictionary = {
     };
     null !== localStorage.getItem("fx_winCount") && (i.count = localStorage.getItem("fx_winCount"));
     const s = i;
-    var c = {};
-    const l = document.getElementById("windowContainer");
+    var l = {};
+    const c = document.getElementById("windowContainer");
     function u(e) {
-        c[e.name] = e,
-        c[e.name].isOpen = !1
+        l[e.name] = e,
+        l[e.name].isOpen = !1
     }
     function d(e) {
-        !1 !== c[e].isOpen && (c[e].isOpen = !1,
-        c[e].element.style.display = "none",
-        void 0 !== c[e].onClose && c[e].onClose())
+        !1 !== l[e].isOpen && (l[e].isOpen = !1,
+        l[e].element.style.display = "none",
+        void 0 !== l[e].onClose && l[e].onClose())
     }
     function p() {
-        Object.values(c).forEach((function(e) {
+        Object.values(l).forEach((function(e) {
             !1 !== e.closable && d(e.name)
         }
         ))
     }
     document.addEventListener("mousedown", (e => {
-        l.contains(e.target) || p(),
+        c.contains(e.target) || p(),
         L().useFullscreenMode && O()
     }
     ), {
@@ -1221,15 +1221,15 @@ const dictionary = {
                 n.textContent = "Close",
                 setTimeout(( () => t.appendChild(n)))
             }
-            return l.appendChild(t),
+            return c.appendChild(t),
             u(e),
             t
         },
         add: u,
         openWindow: function(e, ...t) {
-            !0 !== c[e].isOpen && (void 0 !== c[e].beforeOpen && c[e].beforeOpen(...t),
-            c[e].isOpen = !0,
-            c[e].element.style.display = null)
+            !0 !== l[e].isOpen && (void 0 !== l[e].beforeOpen && l[e].beforeOpen(...t),
+            l[e].isOpen = !0,
+            l[e].element.style.display = null)
         },
         closeWindow: d,
         closeAll: p
@@ -1427,13 +1427,13 @@ const dictionary = {
             window.location.reload()
         }
         ;
-        const c = document.createElement("input");
-        function l(e) {
+        const l = document.createElement("input");
+        function c(e) {
             const t = e.target
               , n = t.files[0];
             if (!n)
                 return;
-            if (t.removeEventListener("change", l),
+            if (t.removeEventListener("change", c),
             t.value = "",
             !n.name.endsWith(".json"))
                 return alert("Invalid file format");
@@ -1452,10 +1452,10 @@ const dictionary = {
             ,
             o.readAsText(n)
         }
-        c.type = "file",
+        l.type = "file",
         this.importFromFile = function() {
-            c.click(),
-            c.addEventListener("change", l)
+            l.click(),
+            l.addEventListener("change", c)
         }
         ,
         this.exportToFile = function() {
@@ -1861,7 +1861,11 @@ const dictionary = {
     f.add({
         name: "lobbyJoinMenu",
         element: document.getElementById("customLobbyJoinMenu")
-    });
+    }),
+    f.create({
+        name: "customLobbiesUnavailable",
+        closeWithButton: !0
+    }).innerHTML = '<p>The latest version of FX Client doesn\'t support custom lobbies yet. Use the stable version at <a href="https://fxclient.github.io/custom-lobbies/">https://fxclient.github.io/custom-lobbies</a></p>';
     const ne = f.create({
         name: "customLobby",
         classes: "scrollable selectable flex-column text-align-center",
@@ -1878,10 +1882,10 @@ const dictionary = {
     const ie = document.createElement("div")
       , se = document.createElement("p");
     se.textContent = "0 Players";
-    const ce = document.createElement("div");
-    ie.append(se, ce);
     const le = document.createElement("div");
-    le.className = "text-align-left";
+    ie.append(se, le);
+    const ce = document.createElement("div");
+    ce.className = "text-align-left";
     const ue = {
         mode: {
             label: "Mode:",
@@ -2000,10 +2004,10 @@ const dictionary = {
             r.addEventListener("change", ye.bind(void 0, e))
         } else
             n.append(document.createElement("br"));
-        le.append(n)
+        ce.append(n)
     }
     )),
-    ae.append(ie, le);
+    ae.append(ie, ce);
     const me = document.createElement("footer");
     function be(e, t) {
         const n = document.createElement("button");
@@ -2081,7 +2085,7 @@ const dictionary = {
         const o = Le("Host", e.isHost)
           , r = Le("In Game", e.inGame);
         t.append(o, r, n),
-        ce.append(t),
+        le.append(t),
         Te.push({
             element: t,
             hostBadge: o,
@@ -2103,11 +2107,8 @@ const dictionary = {
         se.textContent = `${Te.length} Player${1 === Te.length ? "" : "s"}`
     }
     function Pe(e) {
-        const t = window.location.hash;
-        t.startsWith("#lobby=") && (e && Q(),
-        V = t.slice(7),
-        Fe(!0),
-        Y())
+        if (window.location.hash.startsWith("#lobby="))
+            return f.openWindow("customLobbiesUnavailable")
     }
     function Ae() {
         Ee("ping", performance.now())
@@ -2117,11 +2118,11 @@ const dictionary = {
         !1 === e ? (f.closeWindow("customLobby"),
         void 0 !== Se && clearInterval(Se)) : Se = setInterval(Ae, 1e4)
     }
-    window.addEventListener("hashchange", ( () => Pe(!0)));
+    window.addEventListener("hashchange", ( () => Pe()));
     const Be = {
         gameInfo: pe,
         showJoinPrompt: function() {
-            f.openWindow("lobbyJoinMenu")
+            return f.openWindow("customLobbiesUnavailable")
         },
         isCustomMessage: function(e) {
             if (120 !== e[0])
@@ -2142,12 +2143,12 @@ const dictionary = {
                 V = r.code,
                 Oe = r.isHost,
                 ge.disabled = !Oe,
-                Oe ? le.classList.remove("disabled") : le.classList.add("disabled"),
+                Oe ? ce.classList.remove("disabled") : ce.classList.add("disabled"),
                 Object.entries(r.options).forEach(( ([e,t]) => fe(e, t))),
                 a = r.players,
                 i = r.id,
                 Te = [],
-                ce.innerHTML = "",
+                le.innerHTML = "",
                 a.forEach(Ie),
                 ke = Te[i],
                 Ce();
@@ -2177,7 +2178,7 @@ const dictionary = {
             } else
                 "host" === o ? (Oe = !0,
                 ge.disabled = !1,
-                le.classList.remove("disabled"),
+                ce.classList.remove("disabled"),
                 Te.forEach((e => {
                     e.isHost || (e.kickButton.className = "")
                 }
@@ -2280,7 +2281,7 @@ const dictionary = {
     We.wins = s,
     We.customLobby = Be,
     console.log("Successfully loaded FX Client")
-    function setFxSettings() {
+        function setFxSettings() {
       const fxSettings = {
         attackPercentageKeybinds: [],
         coloredDensity: false,
